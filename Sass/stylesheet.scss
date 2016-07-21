@@ -1,0 +1,40 @@
+@mixin align{
+	float:left;
+	clear:left;
+	text-align:right;
+}
+#total{
+	@include align;
+	} 
+#sub{
+	@include align;
+	} 
+#tax{
+	@include align;
+	} 
+form{
+	@include align;
+}
+
+$font-stack: garamond, serif;
+$font-stack2: papyrus, fantasy;
+
+
+h1{
+	font:$font-stack;
+	
+
+}
+h3{
+	font:$font-stack;
+
+}
+li{
+	font:$font-stack2;
+}
+p{
+	font:$font-stack2;
+}
+form{
+	font:$font-stack2;
+}

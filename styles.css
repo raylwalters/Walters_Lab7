@@ -1,0 +1,46 @@
+body{
+	/*background-color:grey;*/
+}
+/*h1, h3{
+	font-family:"garamond",serif;
+}*/
+li, p, form{
+	font-family:"papyrus",fantasy;
+}
+
+#left, #right{
+	display: inline;
+	float:left;
+
+}
+#left{
+	clear:left;
+
+}
+/*#total, #sub, #tax, form{
+	float:left;
+	clear:left;
+	text-align:right;
+}*/
+#tax{
+	border-bottom:2px solid black;
+}
+#items, #price{
+	list-style-type: none;
+}
+#items{
+	margin-left: -40%;
+}
+#right h3{
+	text-align:right;
+}
+#main{
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+	background:url("./images/paper.jpg")center;
+	background-size:cover;
+	overflow: auto;
+	padding:20%;
+
+}

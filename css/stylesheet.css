@@ -1,0 +1,25 @@
+#total {
+  float: left;
+  clear: left;
+  text-align: right; }
+
+#sub {
+  float: left;
+  clear: left;
+  text-align: right; }
+
+#tax {
+  float: left;
+  clear: left;
+  text-align: right; }
+
+form {
+  float: left;
+  clear: left;
+  text-align: right; }
+
+h1 {
+  font: garamond, serif; }
+
+h3 {
+  font: garamond, serif; }
